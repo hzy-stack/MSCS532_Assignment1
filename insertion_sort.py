@@ -11,7 +11,7 @@ def insertion_sort_desc(arr):
     return arr
 
 
-def test():
+def test1():
     data = [5, 2, 9, 1, 5, 6]
     print("Original:", data)
 
@@ -19,5 +19,18 @@ def test():
     print("Sorted descending order:", sorted_desc)
 
 
+def test2():
+    # duplicate value
+    data = [2, 2, 4, 3]
+    print("Original:", data)
+
+    sorted_desc = insertion_sort_desc(data)
+    print("Sorted descending order:", sorted_desc)
+
+
 if __name__ == "__main__":
-    test()
+    print("____________test 1____________")
+    test1()
+
+    print("____________test 2____________")
+    test2()
