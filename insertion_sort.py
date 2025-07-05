@@ -20,8 +20,8 @@ def test1():
 
 
 def test2():
-    # duplicate value
-    data = [2, 2, 4, 3]
+    # minus value
+    data = [2, 2, 4, -3]
     print("Original:", data)
 
     sorted_desc = insertion_sort_desc(data)
